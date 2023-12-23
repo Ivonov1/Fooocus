@@ -4,7 +4,7 @@
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            "sd_xl_offset_example-lora_1.0.safetensors",
+            "None",
             0.1
         ],
         [
@@ -30,11 +30,12 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt_negative": "AC_Neg1, AC_Neg2, Zip2D_Neg",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus Sharp",
+        "Fooocus Negative",
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
